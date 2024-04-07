@@ -7,7 +7,6 @@ import (
 	"time"
 
 	"github.com/corgi14/simplebank/util"
-
 	"github.com/stretchr/testify/require"
 )
 

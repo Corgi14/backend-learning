@@ -5,7 +5,6 @@
 package db
 
 import (
-	"database/sql"
 	"time"
 )
 
@@ -31,5 +30,5 @@ type Transfer struct {
 	ToAccountID   int64
 	// must be positive
 	Amount    int64
-	CreatedAt sql.NullTime
+	CreatedAt time.Time
 }
